@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Stronka</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="coś_tam" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script type="text/javascript" src=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+        <div class="header">
+            <a href="#home" class="active">Główna</a>
+            <a href="#" id="memes">memy</a>
+            <a href="#">cos</a>
+            <div class="wyszukiwanie">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="szukaj" name="szukaj">
+                    <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+    </div>
+    <div class="lewica">
+        
+    
+    </div>
+    <div class="post">
+        <p id="photo_place">wybierz którąś z zakładek a pojawi się rządane działanie</p>  
+    </div>
+    <footer>
+        <ul>
+            Numer kontaktowy:   666-666-666
+            kontakt mail atg2137@JP@GMD.com
+        </ul>
+    </footer>
+</body>
+
+<script>
+$(function($){
+    $("#memes").click(function(){
+        $("#photo_place").html('<img src="zdjęcia/zdjęcie1.jpg">');
+    });
+});
+</script>
+</html>
