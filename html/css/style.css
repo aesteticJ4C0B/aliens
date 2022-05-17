@@ -1,0 +1,27 @@
+
+body{
+    margin-top:0;
+    background-color: black;
+    display: inline-block;
+}
+.header a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: cursive;
+    display: inline-block;
+    text-align: center;
+}
+#logo img{
+    width: 15%;
+}
+.post{
+    width: 450px;
+    height: 600px;
+    display: inline-block;
+    
+}
+.post img{
+    width: 450px;
+    height:600px;
+
+}

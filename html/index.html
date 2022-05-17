@@ -12,35 +12,68 @@
     </head>
 <body>
         <div class="header">
+            <div id="logo">
+                <img src="zdjęcia/logo.png" alt="">
+            </div>
+            
             <a href="#home" class="active">Główna</a>
             <a href="#" id="memes">memy</a>
             <a href="#">cos</a>
             <div class="wyszukiwanie">
-                <form action="/action_page.php">
+                <form action="skrypty/wyszukiwanie.php" method="post">
                     <input type="text" placeholder="szukaj" name="szukaj">
                     <button id="search" type="submit"><i class="fa fa-search"></i></button>
                 </form>
-            </div>
-    </div>
-    <div class="lewica">
-        
-    
+            </div>   
+    <div class="post">
+        <img src="zdjęcia/IMG_5621.png" alt="">  
     </div>
     <div class="post">
-        <p id="photo_place">wybierz którąś z zakładek a pojawi się rządane działanie</p>  
+        <img src="zdjęcia/IMG_5622.png" alt="">  
     </div>
-    <footer>
-        <ul>
-            Numer kontaktowy:   666-666-666
-            kontakt mail atg2137@JP@GMD.com
-        </ul>
-    </footer>
+    <div class="post">
+        <img src="zdjęcia/IMG_5623.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5624.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5625.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5626.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5627.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5628.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5629.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5630.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5631.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5632.png" alt="">  
+    </div>
+    <div class="post">
+        <img src="zdjęcia/IMG_5633.png" alt="">  
+    </div>
 </body>
 
 <script>
 $(function($){
-    $("#memes").click(function(){
-        $("#photo_place").html('<img src="zdjęcia/zdjęcie1.jpg">');
+    $(".post").hover(function(){
+        $(".post img",".post").animate({
+                            height: '+ 20 px',
+                            width: '+ 50 px'
+
+        });
     });
 });
 </script>
